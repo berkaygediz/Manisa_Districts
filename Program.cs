@@ -15,6 +15,7 @@
 
         static void Main()
         {
+            Console.Title = "Manisa Districts";
         start:
             Random anecdoterandom = new();
             int anecdoteindex = anecdoterandom.Next(0, 6);
