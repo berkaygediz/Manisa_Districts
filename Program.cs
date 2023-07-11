@@ -19,7 +19,6 @@
         start:
             Random anecdoterandom = new();
             int anecdoteindex = anecdoterandom.Next(0, 6);
-
             string[] anecdote = {
                 "Manisa ili; Osmanlı İmparatorluğu zamanında Saruhan Sancağı olarak idare yapısı içinde yer almış, 1923 yılında Cumhuriyetin ilanı ile birlikte Saruhan ili olarak teşkil edilmiş olup, müteakiben 1927 yılında isim değişikliği yapılarak Manisa adını almıştır.",
                 "Spil Dağında yaşayan ve Manisa sokaklarında üzerinde sadece şort ile dolaşan Ahmet Bedevi'ye halk Manisa Tarzanı adını takmıştır. 1963 yılında hayatını kaybedince Manisa halkınca bir efsaneye dönüştürülmüş, heykeli dikilmiştir. Her yıl ölüm yıldönümü olan 31 Mayıs'ta Manisa'da Ahmet Bedevi için törenler düzenlenir.",
@@ -28,8 +27,6 @@
                 "Manisa ilinin en önemli bitkisel ürünleri Kuru ve Yaş Üzüm, Zeytin, Kiraz, Tütün, Kurutmalık ve Yaş Domates, Mısır, Kavun ve Karpuzdur.",
                 "Manisa il topraklarının %46'sı orman ve makilerle kaplıdır. Geniş bir alanı kaplayan makiler dağların kuzey ve batı yamaçlarında yer alır. Ormanlar meşe, dişbudak, karaağaç, karaçam, kızılçam, ardıç, ahlât ve çınardan ibarettir. Ormanlar genelde 1000 metre üzerindeki yükseltilerde bulunur."
             };
-
-
             District[] districtcollection = {
                 new District("Ahmetli", 16530),
                 new District("Akhisar", 173026),
@@ -49,11 +46,8 @@
                 new District("Turgutlu", 163223),
                 new District("Salihli", 257993)
             };
-
             Console.WriteLine("A N E C D O T E:\n" + anecdote[anecdoteindex] + "\n");
-
             string[] staticdistricts = { "Ahmetli", "Akhisar", "Alaşehir", "Demirci", "Gölmarmara", "Gördes", "Kırkağaç", "Köprübaşı", "Kula", "Salihli", "Sarıgöl", "Saruhanlı", "Selendi", "Soma", "Şehzadeler", "Turgutlu", "Yunusemre" };
-
             string[] info = {
                 "İlçenin halkı geçimini üzüm, pamuk, (kırmızı, tarhanalık, salçalık) biber, domates, \n tütün ve zeytin üretimi yaparak sağlar. Doğusunda Salihli, batısında Turgutlu bulunur. Ege Bölgesi'nin \n en verimli üzüm bağlarının Ahmetli ovasında olduğu \n belirtilmektedir. ",
                 "Türkiye'nin Ege Bölgesi'nde bulunan Manisa iline bağlı bir ilçedir. Şehir merkezinde on dört, \n kırsalda doksan altı mahallesi bulunan Akhisar, 174.850 kişilik nüfusu ile Manisa'nın il \n merkezi dışında nüfusu en yüksek, Türkiye'nin ise yüz \notuz sekizinci nüfusu en yüksek ilçesidir. \n Orta Gediz Havzası'nda bulunan Akhisar Ovası üzerinde kuruludur. 1645 km²'lik yüzölçümü ile Manisa \n genelinde en fazla yüzölçümüne sahip ilçe konumundadır. İlçenin en önemli geçim kaynağı tarımdır. \n Tarım dışında hammaddeye dayalı sanayi ve ticaret ilçenin diğer ekonomik faaliyetlerindendir. \n İlçenin topraklarının %47'si tarım arazisi olarak kullanılırken bu arazilerde \n daha çok zeytin ve üzüm üretimi gerçekleştirilmektedir.",
@@ -73,7 +67,6 @@
                 "Sultan II. Murat döneminde Dalbahçe Köyü çevresine yerleşen Turgud Aşireti tarafından kurulmuş ve \n zamanla ovaya inerek bugünkü yerini almıştır. Yunanların, İzmir'i işgalinden \n 10 gün sonra da Turgutlu'yu işgal edilmiştir. Bu tarihten, 7 Eylül \n 1922 yılına kadar ilçe işgal altında kalmıştır. Kurtuluş savaşı sonrası Yunan askeri ilçeden çekilirken Bozkurt ve Küllük mahalleleri hariç tüm \n mahallelerini yakmıştır. ",
                 "Türkiye'nin Ege Bölgesi'nde bulunan Manisa ilinin İlçelerinden biridir. 12 Kasım 2012'de Manisa il \n merkezinin ikiye bölünmesiyle ayrı bir ilçe olmuştur. 257.993 kişilik nüfusuyla \n Manisa'nın en yüksek nüfuslu ilçesidir.[1] İlçenin adı, 13. yüzyılda \n yaşamış tasavvuf ve Türk halk şairi Yunus Emre'den gelmektedir. İlçe, Gediz Ovasının üzerinde ve Spil Dağı ile Yamanlar Dağı'nın eteğinde \n kuruludur. İlçenin güneyinde Spil ve Yamanlar Dağı, batısında Menemen ilçesi, kuzeyinde Yunt Dağları, \n doğusunda Şehzadeler ilçesi ve kuzey doğusunda Saruhanlı ilçesi bulunur. Gediz Nehri \n ilçenin içinden, yerleşim yerlerinin ise kuzeyinden geçer. İlçenin ana ekonomik \n geçim kaynağı tarım ve sanayi'dir. ",
             };
-
             string[] advantage = {
                 "İlçede Celal Bayar Üniversitesi'nin bölümleri de bulunmaktadır. İzmir-Ankara asfaltı üzerinde olup \n ulaşımı kolay bir ilçedir. ",
                 "Bölgeye, il merkezinden taksi veya Manisa Otogarı’ndan hareket eden Akhisar dolmuşlarıyla da ortalama \n 45 dakika içerisinde ulaşım sağlanabilmektedir.",
@@ -93,31 +86,25 @@
                 "İlçenin en önemli turistik tesisi Urganlı Kaplıcaları'dır. Urganlı Kaplıcaları, suları karbondioksitli ve \n bikarbonatlıdır. Sıcaklığı 50 ile 78 santigrat derece arasında değişmektedir. \n Karaca Ali Kanyonu, Küp yar ve Ovacık Yaylası ilçenin diğer turistlik bölgeleridir.\n İlçe yakınındaki Bozdağlar da, doğa yürüyüşleri için tercih edilen yerlerdendir. İlçede Celal Bayar Üniversitesi Hasan \n Ferdi Turgutlu Teknoloji Fakültesi ve Celal Bayar Üniversitesi Turgutlu Meslek Yüksek Okulu bulunmaktadır.",
                 "Aigai antik kenti, Yoğurtçu Kalesi ve Ağlayan Kaya'sıyla meşhurdur. İlçede Celal Bayar Üniversitesi'nin Şehit \n Prof. Dr. İlhan Varank Yerleşkesi ve Uncubozköy mahallesinde Sağlık Yerleşkesi \n ile Tıp Fakültesi bulunur. ",
             };
-
             Console.WriteLine("!-------Manisa Districts-------!");
             Console.WriteLine("Welcome to the information retrieval and sorting service for Manisa districts. To learn the commands, type 'help'.\n");
             Console.Write("--> ");
 #pragma warning disable CS8602
             string command = Console.ReadLine().ToLower();
 #pragma warning restore CS8602
-
-            if (command == "detail")
+            if (command == "details")
             {
             detail:
                 Console.Clear();
-
                 Console.WriteLine("!-------District Information Service-------!");
                 Console.WriteLine("To view details about all districts, type 'all'. To view information about a specific district, type 'select'.");
-
                 Console.Write("--> ");
 #pragma warning disable CS8602
                 command = Console.ReadLine().ToLower();
 #pragma warning restore CS8602
-
                 if (command == "all")
                 {
                     Console.Clear();
-
                     Console.WriteLine("!-------All Districts-------!\n");
                     for (int i = 0; i < staticdistricts.Length; i++)
                     {
@@ -130,7 +117,6 @@
                             Console.WriteLine($"District: {staticdistricts[i]}\nINFO: {info[i]}\n\nADVANTAGE: {advantage[i]}");
                         }
                     }
-
                     Console.ReadKey();
                     Console.Clear();
                     goto detail;
@@ -139,7 +125,6 @@
                 {
                 select:
                     Console.Clear();
-
                     Console.WriteLine("!-------Select a District-------!");
                     Console.Write("Districts: ");
                     for (int i = 0; i < staticdistricts.Length; i++)
@@ -151,7 +136,6 @@
 #pragma warning disable CS8602
                     command = Console.ReadLine().ToLower();
 #pragma warning restore CS8602
-
                     foreach (District district in districtcollection)
                     {
                         if (command.ToLower() == district.District_name.ToLower().ToString())
@@ -168,10 +152,8 @@
                             goto detail;
                         }
                     }
-
                     Console.Clear();
                     goto select;
-
                 }
                 else if (command == "back")
                 {
@@ -182,29 +164,24 @@
                 {
                     goto detail;
                 }
-
             }
             else if (command == "order")
             {
             sort:
                 Console.Clear();
-
                 Console.WriteLine("!-------District Sorting Service-------!");
                 Console.WriteLine(" To sort by population: ascending, descending\n To sort alphabetically: alphabetical\n To search in district names: including\n");
-
                 Console.Write("--> ");
 #pragma warning disable CS8602
                 command = Console.ReadLine().ToLower();
 #pragma warning restore CS8602
                 Console.WriteLine();
-
                 if (command == "ascending")
                 {
                     Array.Sort(districtcollection, delegate (District district1, District district2)
                     {
                         return district1.Population.CompareTo(district2.Population);
                     });
-
                     Array.Reverse(districtcollection);
                     Console.WriteLine("District | Population");
                     Console.WriteLine("---------|---------");
@@ -213,7 +190,6 @@
                         Console.WriteLine($"{district.District_name} - {district.Population}");
 
                     }
-
                     Console.ReadKey();
                     goto sort;
                 }
@@ -223,17 +199,14 @@
                     {
                         return district1.Population.CompareTo(district2.Population);
                     });
-
                     Console.WriteLine("District | Population");
                     Console.WriteLine("---------|---------");
                     foreach (District district in districtcollection)
                     {
                         Console.WriteLine($"{district.District_name} - {district.Population}");
                     }
-
                     Console.ReadKey();
                     goto sort;
-
                 }
                 else if (command == "alphabetical")
                 {
@@ -244,10 +217,8 @@
                     {
                         Console.Write(staticdistricts[i].ToString() + "\n");
                     }
-
                     Console.ReadKey();
                     goto sort;
-
                 }
                 else if (command == "including")
                 {
@@ -255,7 +226,6 @@
 #pragma warning disable CS8600
                     command = Console.ReadLine();
 #pragma warning restore CS8600
-
                     if (string.IsNullOrEmpty(command) != true)
                     {
                         int found = 0;
@@ -269,8 +239,6 @@
                                 Console.Write(staticdistricts[i].ToString() + "\n");
                             }
                         }
-
-
                         if (found == 0)
                         {
                             Console.WriteLine($"\nThere is no such district.");
@@ -292,7 +260,6 @@
                 {
                     goto sort;
                 }
-
             }
             else if (command == "help")
             {
